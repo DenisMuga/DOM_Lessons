@@ -121,6 +121,75 @@
 // head.classList.toggle('grimp'); //Adds a class 'grimp'
 // head.classList.toggle('grimp'); //Removes a class 'grimp'
 
+// =========================CONCATANATING STRINGS ===============================================
+
+// let firstName = 'Denis';
+// let secondName = 'Mugah'
+// let fullName = firstName + ' ' + secondName;
+// console.log(fullName);
+// console.log(fullName[0]); //getting the first character
+// console.log(fullName.length); //getting the length of the string
+// console.log(fullName.toUpperCase());
+
+// let result = fullName.toLowerCase();
+// console.log(result); //Note that methods do not alter the original value of the string.
+
+
+let email = 'mugah2011@gmail.com';
+let index = email.indexOf('@'); //string method that gets the index of a character within a string
+let brii = email.lastIndexOf('a'); //logs the last index of a which is 12
+let mySlice = email.slice(0, 8); //gets the first 8 characters of the string
+let mySubst = email.substr(2,10); //picks 10 characters from position 2
+let myReplace = email.replace('m', 'w'); //Replaces the first m character in the string with w
+console.log(brii);
+console.log(index);
+console.log(mySlice);
+console.log(mySubst);
+console.log(myReplace);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
